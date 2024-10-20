@@ -41,12 +41,22 @@ A high-performance, real-time 3D game engine built using Golang and OpenGL/WebGL
 
 
 ## Project Structure
-3d-game-engine/
-│
-├── assets/               # Textures, models, and other game assets
-├── cmd/                  # Command-line tools and server files
-├── engine/               # Core game engine logic (rendering, physics, AI)
-├── shaders/              # GLSL shaders for OpenGL
-├── web/                  # WebGL version of the game engine
-├── README.md             # Project documentation
-└── go.mod                # Go modules for dependencies
+### 3d-game-engine/
+
+- ├── assets/               # Textures, models, and other game assets
+- ├── cmd/                  # Command-line tools and server files
+- ├── engine/               # Core game engine logic (rendering, physics, AI)
+- ├── shaders/              # GLSL shaders for OpenGL
+- ├── web/                  # WebGL version of the game engine
+- ├── README.md             # Project documentation
+- └── go.mod                # Go modules for dependencies
+
+
+
+
+
+
+## Reference 
+### Running Go in the browser. TinyGo + Wasm + WebGL  - https://github.com/semanser/tinygo-wasm-webgl-demo.git
+
+### The wasmgo command compiles Go to WASM, and serves the binary locally or deploys to the jsgo.io CDN. - gh repo clone dave/wasmgo
