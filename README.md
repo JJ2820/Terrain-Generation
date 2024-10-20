@@ -33,11 +33,11 @@ A high-performance, real-time 3D game engine built using Golang and OpenGL/WebGL
 
 ## Usage
 
-  Controls:
-        Move: W, A, S, D
-        Look: Mouse movement
-        Jump: Space
-        Interact: E
+### Controls:
+Move: W, A, S, D
+Look: Mouse movement
+Jump: Space
+Interact: E
 
 
 ## Project Structure
