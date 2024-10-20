@@ -27,3 +27,26 @@ A high-performance, real-time 3D game engine built using Golang and OpenGL/WebGL
 - **OpenGL/WebGL**: Ensure OpenGL libraries are set up. For WebGL, use a modern browser.
 - **CUDA Toolkit**: For systems with CUDA support.
 - **Git**: Version control for cloning the repository.
+
+
+
+
+## Usage
+
+  Controls:
+        Move: W, A, S, D
+        Look: Mouse movement
+        Jump: Space
+        Interact: E
+
+
+## Project Structure
+3d-game-engine/
+│
+├── assets/               # Textures, models, and other game assets
+├── cmd/                  # Command-line tools and server files
+├── engine/               # Core game engine logic (rendering, physics, AI)
+├── shaders/              # GLSL shaders for OpenGL
+├── web/                  # WebGL version of the game engine
+├── README.md             # Project documentation
+└── go.mod                # Go modules for dependencies
