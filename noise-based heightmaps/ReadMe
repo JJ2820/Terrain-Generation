@@ -1,0 +1,36 @@
+This is a GLSL shader that performs terrain generation and raymarching for rendering a scene with noise-based heightmaps and some Phong lighting. 
+
+
+1.1 Fragment Shader (shaders/terrain.frag)
+
+This is the GLSL code you provided. Save it as terrain.frag:
+
+glsl
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+// GLSL code you provided goes here
+
+1.2 Vertex Shader (shaders/basic.vert)
+
+We need a simple vertex shader for the scene:
+
+glsl
+
+#version 410 core
+
+layout (location = 0) in vec3 aPos;
+
+void main() {
+    gl_Position = vec4(aPos, 1.0); // Pass position directly to fragment shader
+}
+
+
+Shaders: We are compiling the vertex and fragment shaders, and passing in data to the fragment shader using uniforms (iResolution and iTime).
+Quad Rendering: A simple quad is rendered across the screen. The fragment shader takes care of generating the terrain, lighting, and fog effects.
+Uniforms:
+
+    iResolution: The resolution of the window (800x600 in this case).
+    iTime: The elapsed time since the application started, passed as a uniform for animating the scene.
